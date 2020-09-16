@@ -12,7 +12,7 @@ from mlibrary.models import Song
 
 song_bp = Blueprint('song', __name__)
 
-online_users = []
+
 
 
 @song_bp.route('/')
@@ -28,7 +28,9 @@ def index():
 
 @song_bp.route('/home')
 def home():
-
+    """
+    the home page of administrator and common users
+    """
     if current_user.is_authenticated:
         if current_user.is_admin:
             q1 = db.session.query(Song.name, Song.artist, db.func.count(Song.user_id)).group_by(Song.name, Song.artist).all()
@@ -50,7 +52,9 @@ def home():
 
 @song_bp.route('/createsong', methods=['POST'])
 def createsong():
-
+    """
+    the route for a common user to add a song to the library
+    """
 
     name = request.form['name']
     artist = request.form['artist']
@@ -82,22 +86,10 @@ def createsong():
 
 @song_bp.route('/song/delete/<song_id>', methods=['DELETE'])
 def deleteroom(song_id):
-
+    """
+        the route for a common user to delete a song in a library
+    """
     Song.query.filter_by(id=song_id).delete()
     db.session.commit()
     return '', 204
 
-
-@song_bp.route('/profile', methods=['GET', 'POST'])
-@login_required
-def profile():
-    form = ProfileForm()
-    if form.validate_on_submit():
-        current_user.nickname = form.nickname.data
-        current_user.github = form.github.data
-        current_user.website = form.website.data
-        current_user.bio = form.bio.data
-        db.session.commit()
-        return redirect(url_for('.home'))
-    # flash_errors(form)
-    return render_template('song/profile.html', form=form)

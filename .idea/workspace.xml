@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02040f73-596b-4e09-a61d-db39c870e940" name="Default Changelist" comment="" />
+    <list default="true" id="02040f73-596b-4e09-a61d-db39c870e940" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/blueprints/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/blueprints/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/blueprints/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/blueprints/song.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/auth/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/auth/reset_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/_profile_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/admin_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/song/admin_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/song/library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/user_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/song/user_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/wait_room.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +30,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hZT3wgb1jDp9uf6CDHnJi97ipK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -104,6 +125,7 @@
       <workItem from="1600298110557" duration="288000" />
       <workItem from="1600298448044" duration="233000" />
       <workItem from="1600298702969" duration="366000" />
+      <workItem from="1600299183287" duration="1155000" />
     </task>
     <servers />
   </component>
@@ -116,29 +138,29 @@
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600217465810" />
     <state x="1624" y="319" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298800309" />
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1600298906586">
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1600300146425">
       <screen x="1440" y="0" width="1440" height="2560" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
-    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906586" />
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600300146425" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681283" />
-    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1600298906583">
+    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1600300146422">
       <screen x="1440" y="0" width="1440" height="2560" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692199" />
-    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906583" />
+    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600300146422" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681281" />
-    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1600298906582">
+    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1600300146421">
       <screen x="1440" y="0" width="1440" height="2560" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692197" />
-    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906582" />
+    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600300146421" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681276" />
-    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1600298906585">
+    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1600300146424">
       <screen x="1440" y="0" width="1440" height="2560" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
-    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906585" />
+    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600300146424" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681282" />
     <state x="1669" y="253" key="SettingsEditor" timestamp="1600298824818">
       <screen x="1440" y="0" width="1440" height="2560" />
@@ -164,7 +186,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SUApp$SUApp.coverage" NAME="SUApp Coverage Results" MODIFIED="1600298002948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MusicLibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600298399099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mlibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600299187087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mlibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600300146411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SUApp$myExceptions.coverage" NAME="myExceptions Coverage Results" MODIFIED="1600219460895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SUApp/service" />
   </component>
 </project>

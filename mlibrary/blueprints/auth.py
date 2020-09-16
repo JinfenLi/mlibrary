@@ -82,6 +82,7 @@ def register():
 
     return render_template('auth/register.html')
 
+
 @auth_bp.route('/reset_password', methods=['GET', 'POST'])
 def reset_password():
     if current_user.is_authenticated:
