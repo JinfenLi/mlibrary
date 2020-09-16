@@ -1,0 +1,152 @@
+
+     {% if current_user.is_admin %}
+<div class="pusher">
+        <div class="chat-box">
+    <div class="container my-4">
+        <table class="table table-striped table-bordered grid" border="1" id="table1">
+                <caption class="text-center" style="border: inherit; background-color: black;caption-side: top; color:white;">Library 1</caption>
+
+            <thead class="thead-dark" style="background-color: #23272b">
+                <tr>
+                    <th style="color:white" onclick="sortTable1()">Song Title</th>
+                    <th style="color:white" onclick="sortTable1()">Artist</th>
+                    <th style="color:white" onclick="sortTable2()">User Count</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for t in table1 %}
+                <tr>
+                    <td >
+{#                        {% if room[0]!=0 %}#}
+{#                        <span class="badge badge-danger" style="background-color: red;color:white">{{ room[0] }}</span>#}
+{#                        {% endif %}#}
+                        {{ t[0] }}</td>
+                    <td >{{ t[1] }}</td>
+                    <td >{{ t[2] }}</td>
+
+
+                {% else %}
+                <td colspan="9" align="center" id="createnosong">No data so far</td>
+
+                {% endfor %}
+            </tr>
+            </tbody>
+        </table>
+
+    <table class="table table-striped table-bordered grid" border="1" id="table2">
+                <caption class="text-center" style="border: inherit; background-color: black;caption-side: top; color:white;">Library 2</caption>
+
+            <thead class="thead-dark" style="background-color: #23272b">
+                <tr>
+
+                    <th style="color:white" onclick="sortTable3()">Artist</th>
+                    <th style="color:white" onclick="sortTable4()">User Count</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for t in table2 %}
+                <tr>
+                    <td >
+{#                        {% if room[0]!=0 %}#}
+{#                        <span class="badge badge-danger" style="background-color: red;color:white">{{ room[0] }}</span>#}
+{#                        {% endif %}#}
+                        {{ t[0] }}</td>
+                    <td >{{ t[1] }}</td>
+
+
+
+                {% else %}
+                <td colspan="9" align="center" id="createnosong">No data so far</td>
+
+                {% endfor %}
+            </tr>
+            </tbody>
+    </div>
+        </div>
+</div>
+
+     {% else %}
+<div class="pusher">
+        <div class="chat-box">
+    <div class="container my-4">
+        <table class="table table-striped table-bordered grid" border="1" id="userlibrary">
+                <caption class="text-center" style="border: inherit; background-color: black;caption-side: top; color:white;">Your Music Library</caption>
+            <thead class="thead-dark" style="background-color: #23272b">
+                <tr>
+                    <th style="color:white">Name</th>
+                    <th style="color:white">Artist</th>
+                    <th style="color:white">Create Time</th>
+                    <th style="color:white">Delete</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for song in songs %}
+                <tr>
+                    <td >
+{#                        {% if room[0]!=0 %}#}
+{#                        <span class="badge badge-danger" style="background-color: red;color:white">{{ room[0] }}</span>#}
+{#                        {% endif %}#}
+                        {{ song[0] }}</td>
+                    <td>{{ song[1] }}</td>
+                    <td>{{ song[2] }}</td>
+{#                    <td>{{ room[3] }}</td>#}
+
+{#                    <td>#}
+{#                        <a class="btn btn-success" href="{{ url_for('song.deletesong',room_name=room[3]) }}" target="_blank">#}
+{##}
+{#                    </a></td>#}
+                    <td><div class="item delete-song-button"
+                         data-href="{{ url_for('song.deleteroom', song_id=song[3]) }}">
+                        <i class="delete icon"></i>
+            </div></td>
+                    {% else %}
+            <td colspan="7" align="center">No rooms so far</td>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{#    <div class="container my-4">#}
+{#        <table class="table table-striped table-bordered grid" border="1" id="userwaitroom">#}
+{#            <caption class="text-center" style="border: inherit; background-color: black;caption-side: top; color:white;">Waiting Rooms</caption>#}
+{#            <thead class="thead-dark" style="background-color: #23272b">#}
+{#                <tr>#}
+{#                    <th style="color:white">Name</th>#}
+{#                    <th style="color:white">Description</th>#}
+{#                    <th style="color:white">Create Time</th>#}
+{##}
+{#                    <th style="color:white">Total User</th>#}
+{##}
+{#                    <th style="color:white">Status</th>#}
+{##}
+{#                </tr>#}
+{#            </thead>#}
+{#            <tbody>#}
+{#                {% for room in waitroom %}#}
+{#                <tr>#}
+{#                    <td>{{ room[0] }}</td>#}
+{#                    <td>{{ room[1] }}</td>#}
+{#                    <td>{{ room[2] }}</td>#}
+{##}
+{#                    <td>{{ room[4] }}</td>#}
+{##}
+{#                   <td> Wait</td>#}
+{#                    {% else %}#}
+{#            <td colspan="7" align="center" id="waitnoroom">No waiting rooms so far</td>#}
+{#                {% endfor %}#}
+{#            </tbody>#}
+{#        </table>#}
+{#    </div>#}
+        </div>
+</div>
+
+{% endif %}
+
+
+
+
+
+
+

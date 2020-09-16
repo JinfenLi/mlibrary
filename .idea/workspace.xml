@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02040f73-596b-4e09-a61d-db39c870e940" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hZT3wgb1jDp9uf6CDHnJi97ipK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SUApp/templates/chat1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.mlibrary">
+    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SUApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SUApp/service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SUApp/service/exceptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mlibrary" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="SUApp" />
+      <option name="target" value="mlibrary" />
+      <option name="targetType" value="PYTHON" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/anaconda3/envs/chat_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.mlibrary" />
+      <item itemvalue="Python.exceptions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exceptions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02040f73-596b-4e09-a61d-db39c870e940" name="Default Changelist" comment="" />
+      <created>1600217419463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600217419463</updated>
+      <workItem from="1600217425565" duration="14288000" />
+      <workItem from="1600298110557" duration="288000" />
+      <workItem from="1600298448044" duration="233000" />
+      <workItem from="1600298702969" duration="366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1624" y="319" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600298800309">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600217465810" />
+    <state x="1624" y="319" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298800309" />
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom" timestamp="1600298906586">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
+    <state width="1398" height="352" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906586" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681283" />
+    <state width="1398" height="352" key="GridCell.Tab.0.center" timestamp="1600298906583">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692199" />
+    <state width="1398" height="352" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906583" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681281" />
+    <state width="1398" height="352" key="GridCell.Tab.0.left" timestamp="1600298906582">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692197" />
+    <state width="1398" height="352" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906582" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681276" />
+    <state width="1398" height="352" key="GridCell.Tab.0.right" timestamp="1600298906585">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
+    <state width="1398" height="352" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298906585" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681282" />
+    <state x="1669" y="253" key="SettingsEditor" timestamp="1600298824818">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600217562143" />
+    <state x="1669" y="253" key="SettingsEditor/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298824818" />
+    <state x="1826" y="915" width="667" height="729" key="find.popup" timestamp="1600298611889">
+      <screen x="1440" y="0" width="1440" height="2560" />
+    </state>
+    <state x="1826" y="915" width="667" height="729" key="find.popup/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298611889" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mlibrary/models.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SUApp$SUApp.coverage" NAME="SUApp Coverage Results" MODIFIED="1600298002948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MusicLibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600298399099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mlibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600299187087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SUApp$myExceptions.coverage" NAME="myExceptions Coverage Results" MODIFIED="1600219460895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SUApp/service" />
+  </component>
+</project>
