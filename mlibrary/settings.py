@@ -21,9 +21,8 @@ class BaseConfig:
 
     SECRET_KEY = os.getenv('SECRET_KEY', 'dev key')
 
-    # SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', prefix + os.path.join(basedir, 'data.db'))
+    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', prefix + os.path.join(basedir, 'data.db'))
 
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', "postgres://brwmbggqcbsauw:df9a7d2a1d3ef852b1f9aafacd1d6a152b3148430b1abb8c65d2a7b0372c3ed1@ec2-54-224-124-241.compute-1.amazonaws.com:5432/d3q2l4sskqrbmb")
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
