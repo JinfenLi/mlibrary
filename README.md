@@ -43,14 +43,20 @@ admin user:
   password: admin
 ```
 ## How it works
-
+```
+sign up as a common user:
+![image](https://user-images.githubusercontent.com/14156164/93525924-8fb18400-f8eb-11ea-8a40-c60b8427abce.png)
+```
 A common user:
+```
 1. See a list of songs / artists that you added to your library
 2. add a song in your library
 3. delete a song in your library
-
+```
 An administrator
+```
 ![image](https://user-images.githubusercontent.com/14156164/93403094-69cca680-f83b-11ea-8fe5-e629cec3358e.png)
+```
 ## License
 
 This project is licensed under the MIT License (see the
