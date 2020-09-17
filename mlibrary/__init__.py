@@ -83,7 +83,7 @@ def register_commands(app):
 
     @app.cli.command()
     @click.option('--message', default=300, help='Quantity of messages, default is 300.')
-    def forge(message):
+    def forge():
         """Generate fake data."""
         from sqlalchemy.exc import IntegrityError
 
@@ -127,7 +127,7 @@ def register_commands(app):
         db.session.add(user)
         db.session.commit()
 
-        for i in range(107):
+        for i in range(20):
             song = Song(name='s'+str(i), artist = 'a'+str(i), user_id = User.query.filter_by(nickname='user1').first().id)
             db.session.add(song)
         db.session.commit()

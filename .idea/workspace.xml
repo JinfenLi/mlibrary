@@ -4,12 +4,10 @@
     <list default="true" id="02040f73-596b-4e09-a61d-db39c870e940" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlibrary/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mlibrary/blueprints/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/blueprints/song.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlibrary/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlibrary/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/library.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/song/library.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlibrary/templates/song/user_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mlibrary/templates/song/user_home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,42 +128,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600321938710">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600328826666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600217465810" />
     <state x="1624" y="319" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298800309" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600321938710" />
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1600328088400">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600328826666" />
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1600328805507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
     <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600307263326" />
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600328088400" />
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600328805507" />
     <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1600315020592" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681283" />
-    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1600328088399">
+    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1600328805506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692199" />
     <state width="1398" height="351" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600307263324" />
-    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600328088399" />
+    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600328805506" />
     <state width="1398" height="351" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1600315020592" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681281" />
-    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1600328088398">
+    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1600328805505">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692197" />
     <state width="1398" height="351" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600307263324" />
-    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600328088398" />
+    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600328805505" />
     <state width="1398" height="351" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1600315020591" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681276" />
-    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1600328088400">
+    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1600328805506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@0.0.1440.900" timestamp="1600219692200" />
     <state width="1398" height="351" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600307263325" />
-    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600328088400" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600328805506" />
     <state width="1398" height="351" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1600315020592" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1440.2560@1440.0.1440.2560" timestamp="1600298681282" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600321792609">
@@ -197,7 +195,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SUApp$SUApp.coverage" NAME="SUApp Coverage Results" MODIFIED="1600298002948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MusicLibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600298399099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mlibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600328088391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mlibrary$mlibrary.coverage" NAME="mlibrary Coverage Results" MODIFIED="1600328805498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SUApp$myExceptions.coverage" NAME="myExceptions Coverage Results" MODIFIED="1600219460895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SUApp/service" />
   </component>
 </project>

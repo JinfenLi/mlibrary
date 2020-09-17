@@ -76,9 +76,11 @@ def createsong():
     """
     the route for a common user to add a song to the library
     """
-
+    print("sdfd")
     name = request.form['name']
     artist = request.form['artist']
+    print(name)
+    print(artist)
     song = Song.query.filter_by(user_id=current_user.id).all()
 
     for s in song:
