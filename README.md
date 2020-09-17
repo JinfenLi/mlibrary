@@ -10,8 +10,8 @@
 
 clone:
 ```
-$ git clone https://github.com/greyli/catchat.git
-$ cd catchat
+$ git clone https://github.com/LiJinfen/mlibrary.git
+$ cd mlibrary
 ```
 create & activate virtual env then install dependency:
 
