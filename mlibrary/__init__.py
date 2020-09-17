@@ -82,7 +82,7 @@ def register_commands(app):
 
 
     @app.cli.command()
-    @click.option('--message', default=300, help='Quantity of messages, default is 300.')
+
     def forge():
         """Generate fake data."""
         from sqlalchemy.exc import IntegrityError
