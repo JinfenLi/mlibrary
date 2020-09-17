@@ -78,7 +78,7 @@ def register():
         db.session.add(user)
         db.session.commit()
         login_user(user, remember=True)
-        return redirect(url_for('song.profile'))
+        return redirect(url_for('song.index'))
 
     return render_template('auth/register.html')
 
