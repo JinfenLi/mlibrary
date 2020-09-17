@@ -2,8 +2,9 @@
 
 *A music library*
 
+![image](https://user-images.githubusercontent.com/14156164/93402918-ee6af500-f83a-11ea-83e2-79f512c905cc.png)
 
-![Screenshot](http://helloflask.com/screenshots/catchat.png)
+
 
 ## Installation
 
@@ -31,10 +32,12 @@ $ flask forge
 $ flask run
 * Running on http://127.0.0.1:5000/
 ```
-Test account:
-* email: `admin@helloflask.com`
-* password: `helloflask`
-
+A common user:
+1. See a list of songs / artists that you added to your library
+2. add a song in your library
+3. delete a song in your library
+An administrator
+![image](https://user-images.githubusercontent.com/14156164/93403094-69cca680-f83b-11ea-8fe5-e629cec3358e.png)
 ## License
 
 This project is licensed under the MIT License (see the
