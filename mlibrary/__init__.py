@@ -98,24 +98,24 @@ def register_commands(app):
         # db.session.commit()
 
         click.echo('Generating users...')
-        users = []
-        for i in range(1, 7):
-            user = User(nickname='user' + str(i),
-                        bio='',
-                        github='',
-                        website='',
-                        email='user' + str(i+1)+'@qq.com'
-                        )
-            if i==201:
-                user.set_password('admin')
-            else:
-                user.set_password('12345')
-            db.session.add(user)
-            users.append(user)
-            try:
-                db.session.commit()
-            except IntegrityError:
-                db.session.rollback()
+        # users = []
+        # for i in range(1, 7):
+        #     user = User(nickname='user' + str(i),
+        #                 bio='',
+        #                 github='',
+        #                 website='',
+        #                 email='user' + str(i+1)+'@qq.com'
+        #                 )
+        #     if i==201:
+        #         user.set_password('admin')
+        #     else:
+        #         user.set_password('12345')
+        #     db.session.add(user)
+        #     users.append(user)
+        #     try:
+        #         db.session.commit()
+        #     except IntegrityError:
+        #         db.session.rollback()
         user = User(nickname='user' + str(201),
                     bio='',
                     github='',
