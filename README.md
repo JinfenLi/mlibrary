@@ -1,8 +1,8 @@
 # Music Library
 
 *A music library*
+![image](https://user-images.githubusercontent.com/14156164/93526238-06e71800-f8ec-11ea-9a8f-a31db8b51faf.png)
 
-![image](https://user-images.githubusercontent.com/14156164/93402918-ee6af500-f83a-11ea-83e2-79f512c905cc.png)
 
 
 
