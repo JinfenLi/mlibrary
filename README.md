@@ -32,7 +32,16 @@ $ flask forge
 $ flask run
 * Running on http://127.0.0.1:5000/
 ```
+test account
+```
+common user(feel free to register):
+  nickname: user1
+  password: 12345
 
+admin user:
+  nickname: user201
+  password: admin
+```
 ## How it works
 
 A common user:
