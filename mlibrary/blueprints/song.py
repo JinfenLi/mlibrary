@@ -34,9 +34,10 @@ def home():
     if current_user.is_authenticated:
         if current_user.is_admin:
             q1 = db.session.query(Song.name, Song.artist, db.func.count(Song.user_id)).group_by(Song.name, Song.artist).all()
-            q2 = db.session.query(Song.artist, db.func.count(Song.user_id)).group_by(Song.artist).all()
+            q2 = db.session.query(Song.artist, db.func.count(db.distinct(Song.user_id))).group_by(Song.artist, Song.user_id).all()
+
             table1 = [[q[0], q[1],q[2]] for q in q1]
-            table2 = [[q[0], q[1]] for q in q2]
+            table2 = [[q[0], q[1]] for q in list(set(q2))]
 
             return render_template('song/admin_home.html', table1=table1, table2=table2)
         else:
