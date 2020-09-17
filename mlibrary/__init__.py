@@ -12,7 +12,7 @@ from flask_wtf.csrf import CSRFError
 
 from mlibrary.blueprints.auth import auth_bp
 from mlibrary.blueprints.song import song_bp
-from mlibrary.extensions import db, login_manager, csrf, socketio, moment,migrate
+from mlibrary.extensions import db, login_manager, csrf, moment,migrate
 from mlibrary.models import User
 from mlibrary.settings import config
 
@@ -36,7 +36,6 @@ def register_extensions(app):
     db.init_app(app)
     login_manager.init_app(app)
     csrf.init_app(app)
-    socketio.init_app(app)
     moment.init_app(app)
     migrate.init_app(app,db)
 
@@ -86,12 +85,7 @@ def register_commands(app):
     @click.option('--message', default=300, help='Quantity of messages, default is 300.')
     def forge(message):
         """Generate fake data."""
-        import random
         from sqlalchemy.exc import IntegrityError
-
-        from faker import Faker
-
-        fake = Faker()
 
         click.echo('Initializing the database...')
         db.drop_all()

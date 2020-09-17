@@ -405,7 +405,7 @@ $(document).ready(function () {
 
         $(window).focus(function () {
             message_count = 0;
-            document.title = 'perchat';
+            document.title = 'mlibrary';
         });
 
         activateSemantics();
