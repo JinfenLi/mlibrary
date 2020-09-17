@@ -32,10 +32,14 @@ $ flask forge
 $ flask run
 * Running on http://127.0.0.1:5000/
 ```
+
+## How it works
+
 A common user:
 1. See a list of songs / artists that you added to your library
 2. add a song in your library
 3. delete a song in your library
+
 An administrator
 ![image](https://user-images.githubusercontent.com/14156164/93403094-69cca680-f83b-11ea-8fe5-e629cec3358e.png)
 ## License
