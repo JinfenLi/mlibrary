@@ -32,6 +32,9 @@ $ flask forge
 $ flask run
 * Running on http://127.0.0.1:5000/
 ```
+
+## How it works
+
 A common user:
 1. See a list of songs / artists that you added to your library
 2. add a song in your library
