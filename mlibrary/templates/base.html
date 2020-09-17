@@ -4,7 +4,7 @@
         <title>{% block title %}{% block page_title %}{% endblock %} Music Library{% endblock %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="{{ url_for('static', filename='logo.png') }}">
-        <link rel="stylesheet" href="dist/sortable-tables.min.css">
+{#        <link rel="stylesheet" href="dist/sortable-tables.min.css">#}
 
    	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -92,7 +92,8 @@
     <script src="{{ url_for('static', filename='js/socket.io.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/forms.js') }}"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    <script src="dist/sortable-tables.min.js"></script>
+     <script src="{{ url_for('static', filename='js/sorttable.js') }}"></script>
+{#    <script src="dist/sortable-tables.min.js"></script>#}
     {{ moment.include_moment(local_js=url_for('static', filename='js/moment-with-locales.min.js')) }}
     <script type="text/javascript">
         var root_url = "{{ url_for('song.index') }}";
