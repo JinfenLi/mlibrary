@@ -91,6 +91,7 @@ $(document).ready(function () {
             $('#createsongmodal').modal('hide');
             var data = response['data'];
             var tr = "<tr>"+
+
                 "<td>"+data.name+ "</td>"+
                 "<td>"+data.artist+"</td>" +
                 "<td>"+data.time+"</td>"+

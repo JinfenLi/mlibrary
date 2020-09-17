@@ -13,7 +13,7 @@ from flask_wtf.csrf import CSRFError
 from mlibrary.blueprints.auth import auth_bp
 from mlibrary.blueprints.song import song_bp
 from mlibrary.extensions import db, login_manager, csrf, moment,migrate
-from mlibrary.models import User
+from mlibrary.models import User, Song
 from mlibrary.settings import config
 
 
@@ -98,24 +98,24 @@ def register_commands(app):
         # db.session.commit()
 
         click.echo('Generating users...')
-        # users = []
-        # for i in range(1, 7):
-        #     user = User(nickname='user' + str(i),
-        #                 bio='',
-        #                 github='',
-        #                 website='',
-        #                 email='user' + str(i+1)+'@qq.com'
-        #                 )
-        #     if i==201:
-        #         user.set_password('admin')
-        #     else:
-        #         user.set_password('12345')
-        #     db.session.add(user)
-        #     users.append(user)
-        #     try:
-        #         db.session.commit()
-        #     except IntegrityError:
-        #         db.session.rollback()
+        users = []
+        for i in range(1, 7):
+            user = User(nickname='user' + str(i),
+                        bio='',
+                        github='',
+                        website='',
+                        email='user' + str(i+1)+'@qq.com'
+                        )
+            if i==201:
+                user.set_password('admin')
+            else:
+                user.set_password('12345')
+            db.session.add(user)
+            users.append(user)
+            try:
+                db.session.commit()
+            except IntegrityError:
+                db.session.rollback()
         user = User(nickname='user' + str(201),
                     bio='',
                     github='',
@@ -127,6 +127,10 @@ def register_commands(app):
         db.session.add(user)
         db.session.commit()
 
+        for i in range(107):
+            song = Song(name='s'+str(i), artist = 'a'+str(i), user_id = User.query.filter_by(nickname='user1').first().id)
+            db.session.add(song)
+        db.session.commit()
 
 
 
